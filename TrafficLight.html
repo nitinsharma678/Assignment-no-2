@@ -1,0 +1,62 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<title>Traffic Light</title>
+<br>
+<br>
+  <style>
+    body {
+    display: grid;
+    place-items: center; 
+  }
+    .traffic-light {
+      width: 50px;
+      background-color: rgb(0, 0, 0);
+      padding: 20px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items:centre;
+      gap: 15px;
+
+    }.light {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(136, 133, 133);
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.pole {
+  width: 10px;
+  height: 150px;
+  background-color: black;
+  margin: 0 auto;
+}
+.base {
+  width: 80px;
+  height: 20px;
+  background-color: black;
+  margin: 0 auto;
+}
+</style>
+</head>
+<body>
+    <div class="traffic-light">
+    <div class="light red"></div>
+    <div class="light yellow"></div>
+    <div class="light green"></div>
+  </div>
+  <div class="pole"></div>
+  <div class="base"></div>
+</body>
+</html>
+
+
+
